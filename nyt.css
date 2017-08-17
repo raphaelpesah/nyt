@@ -1,0 +1,44 @@
+body
+{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 1450px;
+    margin: auto;
+}
+
+div {
+	border: 2px solid black;
+}
+
+header {
+	display: flex;
+	border: 2px solid red;
+	flex-wrap: wrap;
+}
+
+#left {
+	display: inline-block;
+}
+
+#logo {
+	display: inline-block;
+}
+
+#right {
+	display: inline-block;
+}
+
+#ruban {
+	display: flex;
+	margin-top: 55px;
+}
+
+#fixe {
+	display: flex;
+	position: fixed;
+}
